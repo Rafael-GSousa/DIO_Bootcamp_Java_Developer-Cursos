@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rafael"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-24 03:50:36 "/>
+        <attribute name="created" value="UmFmYWVsO1JBRkFFTC1HUzsyMDIyLTA5LTIzOyIwNjoxNDo0NyAiOzI0MTA="/>
+        <attribute name="edited" value="UmFmYWVsO1JBRkFFTC1HUzsyMDIyLTA5LTI0OyIwMzo1MDozNiAiOzI7MjUxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, total, media" type="Real" array="False" size=""/>
+            <declare name="aluno" type="String" array="False" size=""/>
+            <input variable="aluno"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="total" expression="n1 + n2 + n3 + n4"/>
+            <assign variable="media" expression="(n1 + n2 + n3 + n4) / 4"/>
+            <output expression="&quot;Total de notas do aluno&quot; &amp; total" newline="True"/>
+            <output expression="&quot;M&#233;dia do aluno&quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+D:\Digital Innovation One\Dominando IDEs Java\.metadata\.plugins\org.eclipse.jdt.core
+153913249.index
+817920966.index
+1747142712.index
+1428946252.index
+1490556562.index
+260764133.index
+1548354997.index
+1163356691.index
+2210165708.index
+4023710187.index
+1697235124.index
+3840608332.index
+4084766830.index
+881357549.index
+3249399492.index
+3583959884.index
+2374446020.index
+2779065169.index
+2890254169.index

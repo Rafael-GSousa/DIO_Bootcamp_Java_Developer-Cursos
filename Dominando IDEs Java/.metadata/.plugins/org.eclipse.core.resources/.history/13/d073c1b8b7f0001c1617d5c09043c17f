@@ -1,0 +1,13 @@
+package br.com.dio.calculadora;
+
+public class Calculadora {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static int soma(int a, b) {
+		return a + b;
+	}
+
+}

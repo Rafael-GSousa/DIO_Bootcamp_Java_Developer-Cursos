@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rafael"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-24 05:38:56 "/>
+        <attribute name="created" value="UmFmYWVsO1JBRkFFTC1HUzsyMDIyLTA5LTI0OyIwNDowMTo0NyAiOzI0MDU="/>
+        <attribute name="edited" value="UmFmYWVsO1JBRkFFTC1HUzsyMDIyLTA5LTI0OyIwNTozODo1NiAiOzE7MjUyNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f1, p1, f2, p2, f3, p3" type="String" array="False" size=""/>
+            <input variable="f1"/>
+            <input variable="p1"/>
+            <input variable="f2"/>
+            <input variable="p2"/>
+            <input variable="f3"/>
+            <input variable="p3"/>
+            <call expression="subirBlocoDeGelo(f1)"/>
+            <call expression="subirBlocoDeGelo(p1)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="descerBlocoDeGelo(p1)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="subirBlocoDeGelo(f2)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="descerBlocoDeGelo(f1)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="subirBlocoDeGelo(p2)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="descerBlocoDeGelo(p2)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="subirBlocoDeGelo(f3)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="descerBlocoDeGelo(f2)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="subirBlocoDeGelo(p3)"/>
+            <call expression="moverBlocoDeGelo()"/>
+            <call expression="descerBlocoDeGelo(p3)"/>
+            <call expression="descerBlocoDeGelo(f3)"/>
+        </body>
+    </function>
+    <function name="descerBlocoDeGelo" type="None" variable="">
+        <parameters>
+            <parameter name="pinguin" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="pinguin &amp; &quot; Desceu do bloco de gelo!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="moverBlocoDeGelo" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bloco de gelo movido!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="subirBlocoDeGelo" type="None" variable="">
+        <parameters>
+            <parameter name="pinguin" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="pinguin &amp; &quot; Subiu no bloco de gelo!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
